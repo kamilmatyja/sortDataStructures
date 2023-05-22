@@ -133,7 +133,7 @@ internal class Program
             DateTime end6 = DateTime.Now;
             TimeSpan ts6 = (end6 - start6);
 
-            Console.WriteLine("{0};{1};{2};{3};{4};{5};{6};", i, type, ts1.TotalMilliseconds, ts2.TotalMilliseconds, ts3.TotalMilliseconds, ts4.TotalMilliseconds, ts5.TotalMilliseconds, ts6.TotalMilliseconds);
+            Console.WriteLine("{0};{1};{2};{3};{4};{5};{6};{7};", i, type, ts1.TotalMilliseconds, ts2.TotalMilliseconds, ts3.TotalMilliseconds, ts4.TotalMilliseconds, ts5.TotalMilliseconds, ts6.TotalMilliseconds);
         }
     }
 }
