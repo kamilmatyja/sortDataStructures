@@ -6,6 +6,8 @@ internal class Program
 {
     static void Main()
     {
+        DateTime start = DateTime.Now;
+
         int[] arr = RandomArray(20);
 
         int[] arr1 = (int[])arr.Clone();
@@ -47,6 +49,12 @@ internal class Program
         Results("const");
         Results("asc");
         Results("desc");
+
+        DateTime end = DateTime.Now;
+        TimeSpan ts = (end - start);
+        Console.WriteLine("All time: {0}", ts.TotalMilliseconds);
+
+        Console.ReadLine();
     }
 
     static private void PrintArray(int[] arr)
