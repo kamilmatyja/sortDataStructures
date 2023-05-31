@@ -1,6 +1,4 @@
-﻿using System.Reflection;
-
-namespace sortDataStructures
+﻿namespace sortDataStructures
 {
     public class MergeSort
     {

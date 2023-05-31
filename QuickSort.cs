@@ -1,5 +1,3 @@
-using System;
-
 namespace sortDataStructures
 {
     public class QuickSort
